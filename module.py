@@ -57,6 +57,7 @@ def plotConfusionMatrix(cm):
     plt.xlabel('Predictions', fontsize=18)
     plt.ylabel('Actuals', fontsize=18)
     plt.title('Confusion Matrix', fontsize=18)
+    plt.savefig("confusionMatrix")
     plt.show()
 
 def plotLearningCurve(history):
@@ -66,6 +67,7 @@ def plotLearningCurve(history):
     plt.title("Curve plotted using the given x and y")
     plt.xlabel("X")
     plt.ylabel("Y")
+    plt.savefig("learningCurve")
     plt.show()
 
 def txtSplitter(text):
