@@ -21,7 +21,7 @@ And here is the Confusion Matrix of the Model on the Spam and Ham dataset:
 
 ### Workflow
 To better understand the files, this is how I processed the task:
-- I first loaded the ras file which is in the txt format and performed a few preprocessing tasks and then exported the file as a CSV since I prefer working with CSV. (prep1.py)
+- I first loaded the raw file which is in the txt format and performed a few preprocessing tasks and then exported the file as a CSV since I prefer working with CSV. (prep1.py)
 - Then I did further preprocessing in the prep2.py file and exported two files: features.csv and labels.csv
 - then I built helper functions in the module.py file
 - I built the Logistic regression model in (model.py)
