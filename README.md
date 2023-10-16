@@ -19,9 +19,17 @@ And here is the Confusion Matrix of the Model on the Spam and Ham dataset:
 ![screen](confusionMatrix.png)
 
 
+### Workflow
+To better understand the files, this is how I processed the task:
+- I first loaded the ras file which is in the txt format and performed a few preprocessing tasks and then exported the file as a CSV since I prefer working with CSV. (prep1.py)
+- Then I did further preprocessing in the prep2.py file and exported two files: features.csv and labels.csv
+- then I built helper functions in the module.py file
+- I built the Logistic regression model in (model.py)
+- Finally I implemented the model in the main.py file.
+
 ### Task requirements
 
-There are really few libraries needed since I wanted to build it from scratch the model. You will essentially need numpy, pandas, matplotlib, nltk (for pos_tagging), and spacy for lemmaization. But if you want to run on the same environment as me, you can install the same packages I had for building this model using pip or pip3.
+There are really few libraries needed since I wanted to build them from scratch the model. You will essentially need numpy, pandas, matplotlib, nltk (for pos_tagging), and spacy for lemmaization. But if you want to run on the same environment as me, you can install the same packages I had for building this model using pip or pip3.
 
 Before installing the packages be sure to run in a virtual environment. If you don't know how to do it, just open the terminal in the folder where you want to start coding and run this:
 
