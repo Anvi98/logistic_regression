@@ -1,7 +1,7 @@
 # Author: Anvi Alex Eponon
 # Date : 16/10/2023
 # Type : Preprocessing Task.
-# Description: Here
+# Description: Here I just did very few preprocessing to be able to work with the file in a csv format
 #--------------------
 
 from module import *
